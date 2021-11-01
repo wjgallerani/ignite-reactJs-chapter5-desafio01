@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack serve",
+    "dev": "webpack serve --port 3000",
     "server": "json-server server.json --port 3333",
     "build": "cross-env NODE_ENV=production webpack",
     "test": "jest --watchAll"
@@ -32,6 +32,7 @@
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.1",
     "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.3.1",
     "node-sass": "^5.0.0",
     "react-app-polyfill": "^2.0.0",
     "react-refresh": "^0.9.0",
